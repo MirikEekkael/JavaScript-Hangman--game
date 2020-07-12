@@ -1,0 +1,32 @@
+<!-- Worldclock kotitehtävä, Javascript2020, Erik Kankaala !-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <script src="../scripts/main2.js"></script>
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+     <h1>Play Hangman: Guess the right letters!</h1>  
+	<p>Click the gallows with your mouse to get the hidden word!</p>		
+	<label>Give letter and push submit: </label>			
+	<input id ="myletters" type="text" onclick="value=null"></input>
+	<button class="tarkista" onclick="waitForClick()">submit</button> 
+	<button id="newgame"  class="newGame" ><a href="index.html">NEW GAME</a></button>
+	<p> </p>
+	
+		
+	</div>
+		
+			
+				
+				<p class="the_word" id="word">The word:</p>  
+				<p class="guesses" id="gues">Guesses:</p>
+				<p class="guesses_left" id="gues_left">Guesses left:</p>
+		<img class="puu" title="Gallows" src="../imgs/img_gallows.png" onclick="startGame()"></img>		  
+		
+	
+    	
+  </body>
+</html>

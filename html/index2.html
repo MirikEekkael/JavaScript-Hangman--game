@@ -1,0 +1,40 @@
+<!-- Worldclock Javascript2020, Erik Kankaala !-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Worldclock</title>
+	<script src="../scripts/main_clock.js" ></script>
+	<style>
+	p, .time, h1{
+	 margin: 10px 100px;
+     font-weight: bold;
+	}
+	.fi{background-color: lightpink;}
+	.us{background-color: lightblue;}
+	.jp{background-color: lightgreen;}
+	.kello{ 
+		width: 200px;
+		height: 200px;	}
+	</style>
+  </head>
+  <body>
+     <h1>Worldclock (Finland, USA, Japan)</h1>  
+	 <h1>Time and Date in Helsinki, New York and Tokio</h1>
+	 <button class="time" onclick="myDate()">Show Times and Dates</button>
+<!--	 <image title="WORLDCLOCK" src="clock.jpg" class="kello" onclick="myDate()"></image>  !-->
+
+		<div class="fi">
+		  <p id="time_fi_here"></p>
+		  <p id="date_here"></p>
+		</div> 
+		<div class="us">	
+		  <p id="time_us_here"></p>
+		  <p id="date_us"></p>
+		</div>
+		<div class="jp">
+		  <p id="time_jp_here"></p>
+		  <p id="date_japan"></p>
+		</div>  
+  </body>
+</html>

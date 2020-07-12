@@ -1,0 +1,31 @@
+<!-- PROJEKTITYÖ, Member log, Javascript2020, Erik Kankaala !-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Log in page</title>
+	<script src="../scripts/main_log.js"></script>
+	<link href="../css/style2.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+     <h1 align="center">This is the log in page for members.</h1>
+	 <h2 align="center">(I have heard that Steve is a member, any pw will do)</h2>	
+	 <h2 align="center">Log in with your username and password, <a href="index_Register.html">or sign in here</a> </h2>		
+	<!--action="do_something.php"!-->
+	<form   method="post" name="myMemberLog"  onsubmit="return checkNameAndPW()">
+		Username: <input   type="text" name="user_name"><p></p>
+		Password: <input   type="text" name="user_pw"><p></p>
+		          <input   type="submit" value="Submit">
+				  <p></p>
+				  <button id="cancel" ><a href="../main_index.html">cancel logging in</a></button>
+	</form>
+	<p></p>
+	
+	<p></p>
+	
+
+				
+	
+    	
+  </body>
+</html>

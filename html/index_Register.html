@@ -1,0 +1,41 @@
+<!-- PROJEKTITYÖ, Register, Javascript2020, Erik Kankaala !-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+	<script src="../scripts/main_register.js"></script>
+	<link href="../css/style2.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+     <h1 align="center">(NOT REAL!!!) Register here to become a member.(NOT REAL!!!)</h1>  
+	 <h2 align="center">(ONLY EXAMPLE!!!) Fill in your personal information, (*) is required.(ONLY EXAMPLE!!!)</h2>		
+	<!--action="do_something.php"!-->
+	<form   method="post" name="Register"  onsubmit="return checkRegisterData()">
+		
+		<label for="male">(*) Male</label>
+		<input type="radio"id="male" name="gender" value="male">
+		<label for="male">Female</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="male">other</label>
+		<input type="radio" id="other" name="gender" value="other"><p></p>
+		
+		<label for="date of birth">date of birth:</label>
+		<input type="date" id="date_of_birth" name="date of birth"><p></p>
+		
+		(*) choose username: <input   type="text" name="user_name"><p></p>
+		(*) create password: <input   type="password" name="user_pw_1"><p></p>
+		(*) repeat password: <input   type="password" name="user_pw_2"><p></p>
+		          <input   type="submit" value="Register"><p></p><p></p>
+				  <button id="cancel" ><a href="../main_index.html">Cancel</a></button>
+	</form>
+	<br>
+	 
+	<p></p>
+	
+
+				
+	
+    	
+  </body>
+</html>
