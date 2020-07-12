@@ -1,4 +1,4 @@
-
+// Register to member-section data checking javascript, Javascript2020
 
 
 function checkRegisterData(){
@@ -42,44 +42,18 @@ console.log("Age: "+age_value);
 	if(logInfoValid === true){
 		
 		makeDataBaseEntry(user_value, pw_value, age_value);
-	}	
-  
+	}
+	
 }
-
-
 
 function makeDataBaseEntry(user_value, pw_value, age_value){
 	
+	// TODO: db connect with root-user privileges
 	
-	// db connect with root-user privileges
+	// TODO: db actions
 	
-	// db actions
-	
-	// db kill connection
-	
+	// TODO: db kill connection
 	
 	alert("Simulation: Given data is valid, created new entry to member database");
-	
-	
-	
+		
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
