@@ -1,4 +1,4 @@
-
+// Member log in data checking javascript, Javascript2020
 
 
 function checkNameAndPW() {
@@ -24,26 +24,19 @@ let logInfoValid = true;
 }
 
 
-
-
 function makeDataBaseValidation(user, pw){
 	
-	// db connect with visitor privileges
+	// TODO: db connect with visitor privileges
+	
 	// if not member:
-		if(user != "Steve"){
-			alert("Simulation: You are not a member!!!");	
-		} else {
-			
-			alert("Simulation: Nice to meet you again Steve!");	
-		}
+	if(user != "Steve"){
+	     alert("Simulation: You are not a member!!!");	
+	} else {
+	   alert("Simulation: Nice to meet you again Steve!");	
+	}
 	
-	// db actions: get user info
+	// TODO: db actions: get user info
 	
-	// db kill connection
-	
-	
-	//alert("Simulation: Given data is valid, created new entry to member database");
-	
-	
-	
+	// TODO: db kill connection
+		
 }
