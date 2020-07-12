@@ -1,66 +1,29 @@
 /*
   style.css for Hangman_html
 */
-/*
-p, .tarkista, h1{
-	 margin: 10px 100px;
-     font-weight: bold;
-	}
-	.fi{background-color: lightpink;}
-	.us{background-color: lightblue;}
-	.jp{background-color: lightgreen;}
-	.kello{ 
-		width: 200px;
-		height: 200px;	}
-*/	
 	
-	
-	p.the_word, p.guesses, p.guesses_left {
+p.the_word, p.guesses, p.guesses_left {
 		
-		margin: 0px 50px;
-		font-weight: bold;
-		font-size: 24px;
+	margin: 0px 50px;
+	font-weight: bold;
+	font-size: 24px;
 		
-	}
-/*	div.the_word{ 
-		position: fixed;
-		top: 800;
-		right: 700; }
-		div.guesses{ 
-		position: fixed;
-		top: 820;
-		left: 700; }
-		div.guesses_left{ 
-		position: fixed;
-		top: 840;
-		left: 700; }   */
-	/*	
-	position: fixed;
-	top: 300;
-	left: 200;	
-	*/	
-	img {
+}
+img {
 		
-		width: 200px;
-		height: 200px;
-		margin: 5px 80px;
-		border: 1px solid #777;
-	}
-	button.A {
-		margin: 0px 0px;
-	}
-	button:hover {
-		border: 1px solid #777;
-	}
-	button.newGame {
-		margin: 0px 50px;
-	}
-/*	h1, label {
-		margin: 0px 50px;
-	}  */
-	button {
-		
-		background-color: lightgreen;
-		font-size: 16px;
-		
-	}
+	width: 200px;
+	height: 200px;
+	margin: 5px 80px;
+	border: 1px solid #777;
+}
+button:hover {
+	border: 1px solid #777;
+}
+button.newGame {
+	margin: 0px 50px;
+}
+
+button {	
+	background-color: lightgreen;
+	font-size: 16px;		
+}
